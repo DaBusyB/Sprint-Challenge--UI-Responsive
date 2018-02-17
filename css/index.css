@@ -67,8 +67,19 @@ p {
     line-height: 1.4;
 }
 
-.container {
+/*Header Style */
+header {
+    display: flex;
+}
+
+header nav ul {
+    margin-top: 40px;
     width: 800px;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 800px;
     margin: 0 auto;
 }
 
